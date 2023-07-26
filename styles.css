@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #todo-container {
+    margin-top: 20px;
+  }
+  
+  #todo-input {
+    padding: 5px;
+  }
+  
+  #add-button {
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
