@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=REM:wght@500&display=swap');
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    background-color: whitesmoke;
   }
   
   h1 {
     color: #333;
+    font-family: 'REM', sans-serif;
   }
   
   #todo-container {
@@ -15,11 +18,7 @@ body {
   #todo-input {
     padding: 5px;
   }
-  
-  #add-button {
-    padding: 5px 10px;
-    margin-left: 10px;
-  }
+ 
   
   ul {
     list-style: none;
@@ -28,9 +27,59 @@ body {
   
   li {
     margin: 5px 0;
+    font-family: 'Nunito', sans-serif;
   }
   
   input[type="checkbox"] {
     margin-right: 5px;
   }
+  
+  .container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    border: 2px solid rgb(255, 55, 55); 
+    height: 700px; 
+  }
+
+  #todo-list{
+    /* width: 300px; */
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    font-size: 1.4rem;
+  }
+
+  button{
+    margin: 0 20px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(255, 103, 103);
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+  }
+
+
+  input:checkbox{
+    margin: 0 20px;
+  }
+
+
+   
+  #add-button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(93, 93, 255);
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    
+  }
+
+
   
